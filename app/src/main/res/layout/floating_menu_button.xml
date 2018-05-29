@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ismenglx.mycontacts.view.MultiFloatingActionButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:switchFabColor="@color/colorAccent"
+    app:switchFabIcon="@drawable/ic_main_fab"
+    app:layout_behavior="com.ismenglx.mycontacts.util.HideBehavior"
+    app:animationMode="scale">
+
+    <com.ismenglx.mycontacts.view.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="@string/action_add_contact"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_contact"
+            app:backgroundTint="#468cb7"
+            app:fabSize="mini" />
+    </com.ismenglx.mycontacts.view.TagFabLayout>
+
+    <com.ismenglx.mycontacts.view.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="@string/action_search_contact_show"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_select_contact"
+            app:backgroundTint="#468cb7"
+            app:fabSize="mini" />
+    </com.ismenglx.mycontacts.view.TagFabLayout>
+
+    <com.ismenglx.mycontacts.view.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="@string/about_us"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_smile"
+            app:backgroundTint="#468cb7"
+            app:fabSize="mini" />
+    </com.ismenglx.mycontacts.view.TagFabLayout>
+
+</com.ismenglx.mycontacts.view.MultiFloatingActionButton>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">通讯录</string>
+    <string name="large_text">
+          "              太原科技大学.本科.毕业设计\n
+       据We Are Social及Hootsuite统计发现，2017年全球使用移动设备的总人数已突破50亿，也就意味着全球三分之二的人都在使用移动设备，而其中，Android系统占有很大的比重。2017年我国以7亿网民数量排名世界第一，月活跃移动手机也已稳定在12亿台左右，中国已经成为名副其实的网络大国。
+\n       通讯录作为用户日常通讯最为重要的信息沟通工具。随着用户的需求越来越高，手机通讯录已经不仅仅是记录联系人手机号码，通讯录也需要保存联系人邮箱地址，即时通讯(例如QQ)账号，等更详细的信息以及对联系人的分组。同时因为使用通讯录的频繁，通讯录也需要一个优美的UI界面，符合用户习惯，给用户良好的反馈。
+\n       本通讯录软件基于Android系统开发，软件使用Android系统联系人数据库，显示保存的联系人信息，可以对联系人的增删改查，因为使用系统的联系人数据库，用户可以很容易的使用本软件而不需要重新添加联系人。同时通过本软件也可以查询本机中与联系人的通话记录，用户可以通过本软件发起通话。本软件精心设计UI界面，方便用户操作。"
+    </string>
+    <string name="action_send_email">发送邮件</string>
+    <string name="action_send_desk">发送到桌面</string>
+    <string name="action_call_phone">拨打电话</string>
+    <string name="action_send_sms">发送短信</string>
+    <string name="action_settings">设置</string>
+    <string name="action_deleteAll">清空联系人</string>
+    <string name="action_add_contact">新增联系人</string>
+    <string name="action_delete_contact">删除联系人</string>
+    <string name="action_search_contact_show">显示/隐藏搜索框</string>
+    <string name="about_us">关于软件</string>
+    <string name="call">通话</string>
+    <string name="contacts">联系人</string>
+    <string name="groups">群组</string>
+    <string name="unknown_call_log_name">未知号码</string>
+    <string name="unknown_contact_icon">"?"</string>
+    <string name="unknown_name">"(无姓名)"</string>
+
+</resources>

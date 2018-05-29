@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyTab">
+        <attr name="pstsIndicatorColorWe" format="color" />
+        <attr name="pstsUnderlineColorWe" format="color" />
+        <attr name="pstsDividerColorWe" format="color" />
+        <attr name="pstsIndicatorHeightWe" format="dimension" />
+        <attr name="pstsUnderlineHeightWe" format="dimension" />
+        <attr name="pstsDividerPaddingWe" format="dimension" />
+        <attr name="pstsTabPaddingLeftRightWe" format="dimension" />
+        <attr name="pstsScrollOffsetWe" format="dimension" />
+        <attr name="pstsTabBackgroundWe" format="reference" />
+        <attr name="pstsShouldExpandWe" format="boolean" />
+        <attr name="pstsTextAllCapsWe" format="boolean" />
+    </declare-styleable>
+    <!--在这里是悬浮按钮相关设置-->
+    <declare-styleable name="TagFabLayout">
+        <attr name="tagText" format="string" />
+    </declare-styleable>
+    <attr name="animationMode">
+        <enum name="fade" value="0"/>
+        <enum name="scale" value="1"/>
+        <enum name="bounce" value="2"/>
+    </attr>
+    <attr name="position">
+        <enum name="left_bottom" value="0"/>
+        <enum name="right_bottom" value="1"/>
+    </attr>
+    <declare-styleable name="MultiFloatingActionButton">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="switchFabIcon" format="reference"/>
+        <attr name="switchFabColor" format="color"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="animationMode"/>
+        <attr name="position"/>
+    </declare-styleable>
+
+</resources>

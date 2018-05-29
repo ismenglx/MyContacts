@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f6992</color>
+    <color name="colorPrimaryDark">#3f6992</color>
+    <color name="colorAccent">#3f6992</color>
+    <color name="contactTextColor">#000000</color>
+    <color name="gray">#888888</color>
+    <drawable name="transparent">#00000000</drawable>
+
+</resources>

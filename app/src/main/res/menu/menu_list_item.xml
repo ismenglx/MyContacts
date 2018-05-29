@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListItemActivity">
+
+    <item
+        android:id="@+id/action_send_email"
+        android:title="@string/action_send_email"
+        android:orderInCategory="5"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/action_delete_contact"
+        android:orderInCategory="40"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_send_desk"
+        android:orderInCategory="1"
+        android:title="@string/action_send_desk"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_call_phone"
+        android:orderInCategory="60"
+        android:title="@string/action_call_phone"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_send_sms"
+        android:orderInCategory="61"
+        android:title="@string/action_send_sms"
+        app:showAsAction="never" />
+
+</menu>
